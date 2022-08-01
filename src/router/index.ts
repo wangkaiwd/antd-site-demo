@@ -8,7 +8,7 @@ const router = createRouter({
       component: () => import('@/layout/layout'),
       children: [
         {
-          path: '/button',
+          path: 'button',
           component: () => import('@/views/button/button')
         }
       ]

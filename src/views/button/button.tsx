@@ -1,8 +1,9 @@
 import { Button } from 'ant-design-vue';
+import { defineComponent } from 'vue';
 
-export default {
+export default defineComponent({
   name: 'ButtonDemo',
   setup () {
-    return () => <Button type={'primary'}>Button</Button>;
+    return () => <Button>button</Button>;
   }
-};
+});
